@@ -3,7 +3,7 @@
 After going through this README you will learn how to execute a shell script from ansible, and remove the word status from it:
 
 1) How to run a simple shell script which triggers grub command on jenkins.
-2) Run the jenkins server, and go to http://localhost:(Your port)
+2) Run the jenkins server, and go to http://localhost:(Your-port)
 3) After the login you need to create a job, and then name it.
 4) The project should be in freestyle mode.
 5) You will be now presented with a form, go to "Build" and in the drop menu select execute shell, in the shell box type the script written in `rm-status.sh` and save it.
@@ -15,4 +15,4 @@ After going through this README you will learn how to execute a shell script fro
 
 ![](Shell-from-jenkins.png)
 
-##### Note: If the script doesn't execute, try sudo chmod 777 < your-file >
+##### Note: If the script doesn't execute, try `sudo chmod 777 < your-file >`
